@@ -1,0 +1,26 @@
+{
+    "name": "ariyainfotech/module-base",
+    "description": "Module Develop By Ariya InfoTech (ariyainfotech.com)",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        },
+        {
+            "name": "Yuvraj Raulji",
+            "email": "toyuvrajraulji@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AriyaInfoTech\\Base\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
