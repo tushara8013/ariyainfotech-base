@@ -1,8 +1,12 @@
 {
     "name": "ariyainfotech/module-base",
-    "description": "Module Develop By Ariya InfoTech (ariyainfotech.com)",
+    "description": "Extension For Magento2 Develop By Ariya InfoTech (ariyainfotech.com)",
     "type": "magento2-module",
-    "license": "OSL-3.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "version":"1.0.0",
     "authors": [
         {
             "name": "Ariya InfoTech",
@@ -14,7 +18,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": ">=7.3|^8.1"
+    },
     "autoload": {
         "psr-4": {
             "AriyaInfoTech\\Base\\": ""
