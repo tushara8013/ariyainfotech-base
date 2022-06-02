@@ -21,6 +21,7 @@
     "require": {
         "php": ">=7.3|^8.1"
     },
+    "homepage": "https://www.ariyainfotech.com",
     "autoload": {
         "psr-4": {
             "AriyaInfoTech\\Base\\": ""
